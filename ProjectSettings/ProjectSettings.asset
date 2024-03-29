@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 7a6c7558618b9e04a99ae0294371abd6
+  productGUID: 5a9841624ae5c0d4aae073101823a712
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: The Morbid Outbreak Prj
+  productName: The Morbid Outbreak
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -644,7 +644,11 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    Standalone: CROSS_PLATFORM_INPUT
+    Windows Store Apps: MOBILE_INPUT
+    iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -676,14 +680,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: The Morbid Outbreak Prj
+  metroPackageName: The Morbid Outbreak
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: The Morbid Outbreak Prj
+  metroApplicationDescription: The Morbid Outbreak
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -752,10 +756,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: e796e93d-e7ca-43d7-9b69-1d65f2b6dca4
+  cloudProjectId: b83fba41-b466-4b5a-8fea-718c7f31db7e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: The Morbid Outbreak Prj
+  projectName: The Morbid Outbreak
   organizationId: miliciacato
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
